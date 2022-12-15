@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="238.0" layoutY="95.0" text="Weigh your product">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button id="BtnLiters" layoutX="21.0" layoutY="336.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="72.0" style="-fx-background-color: #f6df78; -fx-border-color: black; -fx-border-radius: 3%;" text="Liters" />
+      <Button id="BtnKG" layoutX="21.0" layoutY="197.0" mnemonicParsing="false" opacity="0.9" style="-fx-background-color: #f6df78; -fx-border-color: black; -fx-border-radius: 3%;" text="Killograms" />
+      <Button id="BtnOunce" layoutX="21.0" layoutY="289.0" mnemonicParsing="false" opacity="0.9" prefHeight="26.0" prefWidth="72.0" style="-fx-background-color: #f6df78; -fx-border-color: black; -fx-border-radius: 3%;" text="Ounce" />
+      <Button id="BtnPounds" layoutX="21.0" layoutY="242.0" mnemonicParsing="false" opacity="0.9" prefHeight="26.0" prefWidth="72.0" style="-fx-background-color: #f6df78; -fx-border-color: black; -fx-border-radius: 3%;" text="Pounds" />
+      <Label layoutX="16.0" layoutY="156.0" text="Choose an Unit" />
+      <TextField layoutX="207.0" layoutY="149.0" prefHeight="213.0" prefWidth="221.0" promptText="Weight shown here">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/image.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
